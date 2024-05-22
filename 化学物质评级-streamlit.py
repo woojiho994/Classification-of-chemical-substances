@@ -112,7 +112,7 @@ def adjust_grade_for_dg(grade, ratings):
 
 # Generate the image path based on the endpoint name
 def get_image_path(endpoint_name):
-    return f"/pic/{endpoint_name}.png"
+    return f"pic/{endpoint_name}.png"
 
 
 def get_color(grade):
